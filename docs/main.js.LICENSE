@@ -1,0 +1,174 @@
+/******/
+
+// webpackBootstrap
+
+// The module cache
+
+// The require function
+
+// Check if module is in cache
+
+// Create a new module (and put it into the cache)
+
+// Execute the module function
+
+// Return the exports of the module
+
+// Flag the module as loaded
+
+// expose the modules object (__webpack_modules__)
+
+// Load entry module and return exports
+
+// expose the module cache
+
+// define getter function for harmony exports
+
+// define __esModule on exports
+
+// create a fake namespace object
+
+// mode & 1: value is a module id, require it
+
+// mode & 2: merge all properties of value into the ns
+
+// mode & 4: return value when already ns object
+
+// mode & 8|1: behave like require
+
+// getDefaultExport function for compatibility with non-harmony modules
+
+// Object.prototype.hasOwnProperty.call
+
+// __webpack_public_path__
+
+/************************************************************************/
+
+/* 0 */
+
+/***/
+
+/*
+   * 1. Check if the browser supports `position: sticky` natively or is too old to run the polyfill.
+   *    If either of these is the case set `seppuku` flag. It will be checked later to disable key features
+   *    of the polyfill, but the API will remain functional to avoid breaking things.
+   */
+
+// The polyfill can’t function properly without `window` or `window.getComputedStyle`.
+
+/*
+   * 2. “Global” vars used across the polyfill
+   */
+
+// Check if Shadow Root constructor exists to make further checks simpler
+
+/*
+   * 3. Utility functions
+   */
+
+/*
+   * 4. Sticky class
+   */
+
+/*
+         * 1. Save node computed props
+         */
+
+/*
+         * 2. Check if the node can be activated
+         */
+
+/*
+         * 3. Check if the current node position is `sticky`. If it is, it means that the browser supports sticky positioning,
+         *    but the polyfill was force-enabled. We set the node’s position to `static` before continuing, so that the node
+         *    is in it’s initial position when we gather its params.
+         */
+
+/*
+         * 4. Get necessary node parameters
+         */
+
+/*
+         * 5. Ensure that the node will be positioned relatively to the parent node
+         */
+
+/*
+         * 6. Recalc node position.
+         *    It’s important to do this before clone injection to avoid scrolling bug in Chrome.
+         */
+
+/*
+         * 7. Create a clone
+         */
+
+// Apply styles to the clone
+
+// Check whether element’s parent node is used by other stickies.
+
+// If not, restore parent node’s styles.
+
+// Check whether it’s a node
+
+// Maybe it’s a node list of some sort?
+
+// Take first node from the list then
+
+// Check if Stickyfill is already applied to the node
+
+// and return existing sticky
+
+// Create and return new sticky
+
+// Check if the argument is an iterable of some sort
+
+// If it’s a node make an array of one node
+
+// Add every element as a sticky and return an array of created Sticky instances
+
+// If it’s not an HTMLElement – create an empty element to preserve 1-to-1
+
+// correlation with input list
+
+// If Stickyfill is already applied to the node
+
+// add existing sticky
+
+// Create and add new sticky
+
+// Remove the stickies bound to the nodes in the list
+
+/*
+   * 5. Stickyfill API
+   */
+
+/*
+   * 6. Setup events (unless the polyfill was disabled)
+   */
+
+// Watch for window resizes and device orientation changes and trigger refresh
+
+//Fast dirty check for layout changes every 500ms
+
+// Watch for scroll position changes and trigger recalc/refresh if needed
+
+// recalc position for all stickies
+
+/*
+   * 7. Expose Stickyfill
+   */
+
+/* 1 */
+
+/* harmony import */
+
+/*#__PURE__*/
+
+// import '@babel/polyfill';
+
+// import "es6-promise/auto";
+
+// import "fetch-polyfill";
+
+/* 2 */
+
+// extracted by mini-css-extract-plugin
