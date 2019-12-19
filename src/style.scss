@@ -65,6 +65,9 @@ footer {
   margin-top: 20px;
 }
 @media screen and (max-width: 880px) {
+  .second {
+    height: 300vmax;
+  }
   section {
     p {
       width: 340px;
@@ -98,9 +101,6 @@ footer {
   }
 }
 @media screen and (max-width: 480px) {
-  .second {
-    height: 300vmax;
-  }
   section {
     height: auto;
     p {
