@@ -39,13 +39,13 @@ section {
     top: 0;
   }
   .bg1 {
-    background: center / cover no-repeat url('img/bg1.jpg');
+    background: 60% 50% / cover no-repeat url('img/bg1.jpg');
   }
   .bg2 {
-    background: center / cover no-repeat url('img/bg2.jpg');
+    background: 60% 50% / cover no-repeat url('img/bg2.jpg');
   }
   .bg3 {
-    background: center / cover no-repeat url('img/bg3.jpg');
+    background: center center / cover no-repeat url('img/bg3.jpg');
   }
   .left {
     float: left;
@@ -99,7 +99,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .second {
-    height: auto;
+    height: 300vmax;
   }
   section {
     height: auto;
