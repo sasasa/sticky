@@ -32,7 +32,7 @@ section {
     padding: 3px;
     width: 400px;
   }
-  .sticky {
+  > .sticky {
     width: 50%;
     height: 100vh;
     position: sticky;
@@ -56,6 +56,8 @@ section {
   .follow {
     width: 50%;
     padding-top: 100vh;
+    position: sticky;
+    top: 0;
   }
 } 
 footer {
@@ -111,9 +113,8 @@ footer {
     img {
       width: 99%;
     }
-    .sticky {
+    > .sticky {
       width: 99%;
-      position: static;
     }
     .left {
       float: none;
